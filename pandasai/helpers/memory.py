@@ -23,7 +23,7 @@ class Memory:
     def last(self) -> dict:
         return self._messages[-1]
 
-    def _truncate(self, message: str, max_length: int = 3000) -> str:
+    def _truncate(self, message: str, max_length: int = 4000) -> str:
         """
         Truncates the message if it is longer than max_length
         """
